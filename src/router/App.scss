@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  color: #757575;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'SourceHanSans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@font-face {
+  font-family: 'SourceHanSans';
+  src: url('../assets/fonts/SourceHanSansCN-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  line-height: 24px;
+}

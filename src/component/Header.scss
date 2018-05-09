@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  background: #fff none repeat scroll 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navigator {
+  & > ul {
+    display: flex;
+    justify-content: center;
+    & > li > a {
+      color: #bdbdbd;
+      display: block;
+      line-height: 12px;
+      margin-top: 30px;
+      padding: 39px 55px 46px;
+
+      & > i {
+        display: block;
+        font-size: 24px;
+        line-height: 19px;
+        text-align: center;
+      }
+      & > span {
+        display: block;
+        font-size: 16px;
+        padding-top: 20px;
+        position: relative;
+        text-transform: uppercase;
+      }
+    }
+    & > li > a:hover {
+      & > i,
+      & > span {
+        color: #212121;
+      }
+    }
+  }
+}
+
+.nav-active {
+  border-bottom: 2px solid #00c853;
+  color: #212121;
+  & > i,
+  & > span {
+    color: #212121;
+  }
+}
